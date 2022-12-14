@@ -426,6 +426,11 @@
   "resolved" "https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz"
   "version" "7.0.0"
 
+"k6@0.0.0":
+  "integrity" "sha512-GAQSWayS2+LjbH5bkRi+pMPYyP1JSp7o+4j58ANZ762N/RH/SdlAT3CHHztnn8s/xgg8kYNM24Gd2IPo9b5W+g=="
+  "resolved" "https://registry.npmjs.org/k6/-/k6-0.0.0.tgz"
+  "version" "0.0.0"
+
 "kafkajs@2.2.3":
   "integrity" "sha512-JmzIiLHE/TdQ7b4I2B/DNMtfhTh66fmEaEg7gGkyQXBC6f1A7I2jSjeUsVIJfC8d9YcEIURyBjtOEKBO5OHVhg=="
   "resolved" "https://registry.npmjs.org/kafkajs/-/kafkajs-2.2.3.tgz"
