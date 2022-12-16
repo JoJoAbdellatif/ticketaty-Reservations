@@ -23,7 +23,9 @@
       }            
     },
     "homeTeam": "Qatar",
+    "homeTeamFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Qatar_%283-2%29.svg/1200px-Flag_of_Qatar_%283-2%29.svg.png",
     "awayTeam": "Ecuador",
+    "awayTeamFlag":"https://media.istockphoto.com/id/689094754/vector/flag-of-ecuador.jpg?s=612x612&w=0&k=20&c=up-thIaaQ5h_XtoCXOwUJHu3PsMnPOcKR0Vv-jUhf1c=",
     "group": "A"
   },
   {
@@ -49,8 +51,10 @@
       }            
     },
     "homeTeam": "England",
+    "homeTeamFlag":"https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg",
     "awayTeam": "Iran",
-    "group": "B"
+    "group": "B",
+    "awayTeamFlag": "https://cdn.britannica.com/22/1722-004-EAD033D8/Flag-Iran.jpg "
   },
   {
     "matchNumber": 2,
@@ -75,7 +79,9 @@
       }            
     },
     "homeTeam": "Senegal",
+    "homeTeamFlag":"https://cdn.britannica.com/70/5070-004-2963C5E1/Flag-Senegal.jpg",
     "awayTeam": "Netherlands",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png",
     "group": "A"
   },
   {
@@ -101,7 +107,9 @@
       }            
     },
     "homeTeam": "USA",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
     "awayTeam": "Wales",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_of_Wales.svg/2560px-Flag_of_Wales.svg.png ",
     "group": "B"
   },
   {
@@ -127,7 +135,9 @@
       }            
     },
     "homeTeam": "Argentina",
+    "homeTeamFlag":"https://cdn.britannica.com/69/5869-004-7D75CD05/Flag-Argentina.jpg",
     "awayTeam": "Saudi Arabia",
+    "awayTeamFlag":"https://cdn.britannica.com/79/5779-004-DC479508/Flag-Saudi-Arabia.jpg",
     "group": "C"
   },
   {
@@ -153,7 +163,9 @@
       }            
     },
     "homeTeam": "Denmark",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/640px-Flag_of_Denmark.svg.png ",
     "awayTeam": "Tunisia",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/2560px-Flag_of_Tunisia.svg.png",
     "group": "D"
   },
   {
@@ -179,7 +191,9 @@
       }            
     },
     "homeTeam": "Mexico",
+    "homeTeamFlag":"https://cdn.britannica.com/73/2573-004-29818847/Flag-Mexico.jpg",
     "awayTeam": "Poland",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png",
     "group": "C"
   },
   {
@@ -205,8 +219,11 @@
       }            
     },
     "homeTeam": "France",
+    "homeTeamFlag":"https://cdn.britannica.com/82/682-004-F0B47FCB/Flag-France.jpg",
     "awayTeam": "Australia",
+    "awayTeamFlag":"https://cdn.britannica.com/78/6078-004-77AF7322/Flag-Australia.jpg",
     "group": "D"
+    
   },
   {
     "matchNumber": 12,
@@ -231,7 +248,9 @@
       }            
     },
     "homeTeam": "Morocco",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg",
     "awayTeam": "Croatia",
+    "awayTeamFlag":"https://cdn.britannica.com/06/6206-004-14730C28/Flag-Croatia.jpg",
     "group": "F"
   },
   {
@@ -257,7 +276,9 @@
       }            
     },
     "homeTeam": "Germany",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png ",
     "awayTeam": "Japan",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png",
     "group": "E"
   },
   {
@@ -283,7 +304,9 @@
       }            
     },
     "homeTeam": "Spain",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png",
     "awayTeam": "Costa Rica",
+    "awayTeamFlag":"https://cdn.britannica.com/25/7225-004-65F33B16/Flag-Costa-Rica.jpg",
     "group": "E"
   },
   {
@@ -309,7 +332,9 @@
       }            
     },
     "homeTeam": "Belgium",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/255px-Flag_of_Belgium_%28civil%29.svg.png ",
     "awayTeam": "Canada",
+    "awayTeamFlag":"https://cdn.britannica.com/68/7068-004-7848FEB4/Flag-Canada.jpg",
     "group": "F"
   },
   {
@@ -335,7 +360,9 @@
       }            
     },
     "homeTeam": "Switzerland",
+    "homeTeamFlag":"https://cdn.britannica.com/43/4543-004-C0D5C6F4/Flag-Switzerland.jpg",
     "awayTeam": "Cameroon",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/2560px-Flag_of_Cameroon.svg.png ",
     "group": "G"
   },
   {
@@ -361,7 +388,9 @@
       }            
     },
     "homeTeam": "Uruguay",
+    "homeTeamFlag":"https://cdn.britannica.com/74/4874-004-50846A53/Flag-Uruguay.jpg",
     "awayTeam": "Korea Republic",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/2560px-Flag_of_South_Korea.svg.png",
     "group": "H"
   },
   {
@@ -387,7 +416,9 @@
       }            
     },
     "homeTeam": "Portugal",
+    "homeTeamFlag":"https://t3.ftcdn.net/jpg/02/54/51/58/360_F_254515844_xv51Ug2o8ADkvXbFxxDMlv5YuHPp4Gbr.jpg",
     "awayTeam": "Ghana",
+    "awayTeamFlag":"https://cdn.britannica.com/54/5054-004-A09ABCDF/Flag-Ghana.jpg",
     "group": "H"
   },
   {
@@ -413,7 +444,9 @@
       }            
     },
     "homeTeam": "Brazil",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png ",
     "awayTeam": "Serbia",
+    "awayTeamFlag":"https://cdn.britannica.com/39/94839-004-EEB20F36/Flag-Serbia.jpg",
     "group": "G"
   },
   {
@@ -439,7 +472,9 @@
       }            
     },
     "homeTeam": "Wales",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_of_Wales.svg/2560px-Flag_of_Wales.svg.png ",
     "awayTeam": "Iran",
+    "awayTeamFlag":"https://cdn.britannica.com/22/1722-004-EAD033D8/Flag-Iran.jpg ",
     "group": "B"
   },
   {
@@ -465,7 +500,9 @@
       }            
     },
     "homeTeam": "Qatar",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Qatar_%283-2%29.svg/1200px-Flag_of_Qatar_%283-2%29.svg.png",
     "awayTeam": "Senegal",
+    "awayTeamFlag":"https://cdn.britannica.com/70/5070-004-2963C5E1/Flag-Senegal.jpg",
     "group": "A"
   },
   {
@@ -491,7 +528,9 @@
       }            
     },
     "homeTeam": "Netherlands",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png",
     "awayTeam": "Ecuador",
+    "awayTeamFlag":"https://media.istockphoto.com/id/689094754/vector/flag-of-ecuador.jpg?s=612x612&w=0&k=20&c=up-thIaaQ5h_XtoCXOwUJHu3PsMnPOcKR0Vv-jUhf1c=",
     "group": "A"
   },
   {
@@ -517,7 +556,9 @@
       }            
     },
     "homeTeam": "England",
+    "homeTeamFlag":"https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg",
     "awayTeam": "USA",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
     "group": "B"
   },
   {
@@ -543,7 +584,9 @@
       }            
     },
     "homeTeam": "Tunisia",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/2560px-Flag_of_Tunisia.svg.png",
     "awayTeam": "Australia",
+    "awayTeamFlag":"https://cdn.britannica.com/78/6078-004-77AF7322/Flag-Australia.jpg",
     "group": "D"
   },
   {
@@ -569,7 +612,9 @@
       }            
     },
     "homeTeam": "Poland",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png",
     "awayTeam": "Saudi Arabia",
+    "awayTeamFlag":"https://cdn.britannica.com/79/5779-004-DC479508/Flag-Saudi-Arabia.jpg",
     "group": "C"
   },
   {
@@ -595,7 +640,9 @@
       }            
     },
     "homeTeam": "France",
+    "homeTeamFlag":"https://cdn.britannica.com/82/682-004-F0B47FCB/Flag-France.jpg",
     "awayTeam": "Denmark",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/640px-Flag_of_Denmark.svg.png ",
     "group": "D"
   },
   {
@@ -621,7 +668,9 @@
       }            
     },
     "homeTeam": "Argentina",
+    "homeTeamFlag":"https://cdn.britannica.com/69/5869-004-7D75CD05/Flag-Argentina.jpg",
     "awayTeam": "Mexico",
+    "awayTeamFlag":"https://cdn.britannica.com/73/2573-004-29818847/Flag-Mexico.jpg",
     "group": "C"
   },
   {
@@ -647,10 +696,12 @@
       }            
     },
     "homeTeam": "Japan",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png",
     "awayTeam": "Costa Rica",
+    "awayTeamFlag":"https://cdn.britannica.com/25/7225-004-65F33B16/Flag-Costa-Rica.jpg  ",
     "group": "E"
   },
-  {
+  {  
     "matchNumber": 26,
     "roundNumber": 2,
     "dateUtc": "2022-11-27T13:00:00Z",
@@ -673,7 +724,9 @@
       }            
     },
     "homeTeam": "Belgium",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/255px-Flag_of_Belgium_%28civil%29.svg.png     ",
     "awayTeam": "Morocco",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg    ",
     "group": "F"
   },
   {
@@ -699,7 +752,9 @@
       }            
     },
     "homeTeam": "Croatia",
+    "homeTeamFlag":"https://cdn.britannica.com/06/6206-004-14730C28/Flag-Croatia.jpg",
     "awayTeam": "Canada",
+    "awayTeamFlag":"https://cdn.britannica.com/68/7068-004-7848FEB4/Flag-Canada.jpg",
     "group": "F"
   },
   {
@@ -725,7 +780,9 @@
       }            
     },
     "homeTeam": "Spain",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png      ",
     "awayTeam": "Germany",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png     ",
     "group": "E"
   },
   {
@@ -751,7 +808,9 @@
       }            
     },
     "homeTeam": "Cameroon",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/2560px-Flag_of_Cameroon.svg.png     ",
     "awayTeam": "Serbia",
+    "awayTeamFlag":"https://cdn.britannica.com/39/94839-004-EEB20F36/Flag-Serbia.jpg    ",
     "group": "G"
   },
   {
@@ -777,7 +836,9 @@
       }            
     },
     "homeTeam": "Korea Republic",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/2560px-Flag_of_South_Korea.svg.png    ",
     "awayTeam": "Ghana",
+    "awayTeamFlag":"https://cdn.britannica.com/54/5054-004-A09ABCDF/Flag-Ghana.jpg    ",
     "group": "H"
   },
   {
@@ -803,7 +864,9 @@
       }            
     },
     "homeTeam": "Brazil",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png     ",
     "awayTeam": "Switzerland",
+    "awayTeamFlag":"https://cdn.britannica.com/43/4543-004-C0D5C6F4/Flag-Switzerland.jpg    ",
     "group": "G"
   },
   {
@@ -829,7 +892,9 @@
       }            
     },
     "homeTeam": "Portugal",
+    "homeTeamFlag":"https://t3.ftcdn.net/jpg/02/54/51/58/360_F_254515844_xv51Ug2o8ADkvXbFxxDMlv5YuHPp4Gbr.jpg    ",
     "awayTeam": "Uruguay",
+    "awayTeamFlag":"https://cdn.britannica.com/74/4874-004-50846A53/Flag-Uruguay.jpg    ",
     "group": "H"
   },
   {
@@ -855,7 +920,9 @@
       }            
     },
     "homeTeam": "Ecuador",
+    "homeTeamFlag":"https://media.istockphoto.com/id/689094754/vector/flag-of-ecuador.jpg?s=612x612&w=0&k=20&c=up-thIaaQ5h_XtoCXOwUJHu3PsMnPOcKR0Vv-jUhf1c=    ",
     "awayTeam": "Senegal",
+    "awayTeamFlag":"https://cdn.britannica.com/70/5070-004-2963C5E1/Flag-Senegal.jpg    ",
     "group": "A"
   },
   {
@@ -881,7 +948,9 @@
       }            
     },
     "homeTeam": "Netherlands",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/1200px-Flag_of_the_Netherlands.svg.png    ",
     "awayTeam": "Qatar",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Qatar_%283-2%29.svg/1200px-Flag_of_Qatar_%283-2%29.svg.png    ",
     "group": "A"
   },
   {
@@ -907,7 +976,9 @@
       }            
     },
     "homeTeam": "Wales",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_of_Wales.svg/2560px-Flag_of_Wales.svg.png     ",
     "awayTeam": "England",
+    "awayTeamFlag":"https://cdn.britannica.com/44/344-004-494CC2E8/Flag-England.jpg    ",
     "group": "B"
   },
   {
@@ -933,7 +1004,9 @@
       }            
     },
     "homeTeam": "Iran",
+    "homeTeamFlag":"https://cdn.britannica.com/22/1722-004-EAD033D8/Flag-Iran.jpg     ",
     "awayTeam": "USA",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png    ",
     "group": "B"
   },
   {
@@ -959,7 +1032,9 @@
       }            
     },
     "homeTeam": "Australia",
+    "homeTeamFlag":"https://cdn.britannica.com/78/6078-004-77AF7322/Flag-Australia.jpg    ",
     "awayTeam": "Denmark",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/640px-Flag_of_Denmark.svg.png     ",
     "group": "D"
   },
   {
@@ -985,7 +1060,9 @@
       }            
     },
     "homeTeam": "Tunisia",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/2560px-Flag_of_Tunisia.svg.png    ",
     "awayTeam": "France",
+    "awayTeamFlag":"https://cdn.britannica.com/82/682-004-F0B47FCB/Flag-France.jpg    ",
     "group": "D"
   },
   {
@@ -1011,7 +1088,9 @@
       }            
     },
     "homeTeam": "Poland",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png    ",
     "awayTeam": "Argentina",
+    "awayTeamFlag":"https://cdn.britannica.com/69/5869-004-7D75CD05/Flag-Argentina.jpg    ",
     "group": "C"
   },
   {
@@ -1037,7 +1116,9 @@
       }            
     },
     "homeTeam": "Saudi Arabia",
+    "homeTeamFlag":"https://cdn.britannica.com/79/5779-004-DC479508/Flag-Saudi-Arabia.jpg    ",
     "awayTeam": "Mexico",
+    "awayTeamFlag":"https://cdn.britannica.com/73/2573-004-29818847/Flag-Mexico.jpg    ",
     "group": "C"
   },
   {
@@ -1063,7 +1144,9 @@
       }            
     },
     "homeTeam": "Croatia",
+    "homeTeamFlag":"https://cdn.britannica.com/06/6206-004-14730C28/Flag-Croatia.jpg     ",
     "awayTeam": "Belgium",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/255px-Flag_of_Belgium_%28civil%29.svg.png     ",
     "group": "F"
   },
   {
@@ -1089,7 +1172,9 @@
       }            
     },
     "homeTeam": "Canada",
+    "homeTeamFlag":"https://cdn.britannica.com/68/7068-004-7848FEB4/Flag-Canada.jpg    ",
     "awayTeam": "Morocco",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg    ",
     "group": "F"
   },
   {
@@ -1115,7 +1200,9 @@
       }            
     },
     "homeTeam": "Japan",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png    ",
     "awayTeam": "Spain",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/1200px-Bandera_de_Espa%C3%B1a.svg.png      ",
     "group": "E"
   },
   {
@@ -1141,7 +1228,9 @@
       }            
     },
     "homeTeam": "Costa Rica",
+    "homeTeamFlag":"https://cdn.britannica.com/25/7225-004-65F33B16/Flag-Costa-Rica.jpg      ",
     "awayTeam": "Germany",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png     ",
     "group": "E"
   },
   {
@@ -1167,7 +1256,9 @@
       }            
     },
     "homeTeam": "Ghana",
+    "homeTeamFlag":"https://cdn.britannica.com/54/5054-004-A09ABCDF/Flag-Ghana.jpg    ",
     "awayTeam": "Uruguay",
+    "awayTeamFlag":"https://cdn.britannica.com/74/4874-004-50846A53/Flag-Uruguay.jpg    ",
     "group": "H"
   },
   {
@@ -1193,7 +1284,9 @@
       }            
     },
     "homeTeam": "Korea Republic",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/2560px-Flag_of_South_Korea.svg.png    ",
     "awayTeam": "Portugal",
+    "awayTeamFlag":"https://t3.ftcdn.net/jpg/02/54/51/58/360_F_254515844_xv51Ug2o8ADkvXbFxxDMlv5YuHPp4Gbr.jpg    ",
     "group": "H"
   },
   {
@@ -1219,7 +1312,9 @@
       }            
     },
     "homeTeam": "Serbia",
+    "homeTeamFlag":"https://cdn.britannica.com/39/94839-004-EEB20F36/Flag-Serbia.jpg    ",
     "awayTeam": "Switzerland",
+    "awayTeamFlag":"https://cdn.britannica.com/43/4543-004-C0D5C6F4/Flag-Switzerland.jpg    ",
     "group": "G"
   },
   {
@@ -1245,7 +1340,9 @@
       }            
     },
     "homeTeam": "Cameroon",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/2560px-Flag_of_Cameroon.svg.png     ",
     "awayTeam": "Brazil",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png     ",
     "group": "G"
   },
   {
@@ -1271,7 +1368,9 @@
       }            
     },
     "homeTeam": "1A",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "2B",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1297,7 +1396,9 @@
       }            
     },
     "homeTeam": "1C",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "2D",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1323,7 +1424,9 @@
       }            
     },
     "homeTeam": "1D",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "2C",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1349,7 +1452,9 @@
       }            
     },
     "homeTeam": "1B",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "2A",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1375,7 +1480,9 @@
       }            
     },
     "homeTeam": "1E",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "2F",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1401,7 +1508,9 @@
       }            
     },
     "homeTeam": "1G",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "2H",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1427,7 +1536,9 @@
       }            
     },
     "homeTeam": "1F",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "2E",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1453,7 +1564,9 @@
       }            
     },
     "homeTeam": "1H",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "2G",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1479,7 +1592,9 @@
       }            
     },
     "homeTeam": "TBA",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "TBA",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1505,7 +1620,9 @@
       }            
     },
     "homeTeam": "TBA",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "TBA",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1531,7 +1648,9 @@
       }            
     },
     "homeTeam": "TBA",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "TBA",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1557,7 +1676,9 @@
       }            
     },
     "homeTeam": "TBA",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "TBA",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1583,7 +1704,9 @@
       }            
     },
     "homeTeam": "TBA",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "TBA",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1609,7 +1732,9 @@
       }            
     },
     "homeTeam": "TBA",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "TBA",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1635,7 +1760,9 @@
       }            
     },
     "homeTeam": "TBA",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "TBA",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   },
   {
@@ -1661,7 +1788,9 @@
       }            
     },
     "homeTeam": "TBA",
+    "homeTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "awayTeam": "TBA",
+    "awayTeamFlag":"https://upload.wikimedia.org/wikipedia/commons/7/7e/White_flag_with_question_mark.png",
     "group": null
   }
 ]
