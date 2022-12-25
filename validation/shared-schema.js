@@ -6,4 +6,4 @@ exports.tickets = Joi.array().items(
     quantity: Joi.number().strict().min(1).max(2).required(),
     price: Joi.number().strict().valid(75, 125, 195).required(),
   }).required()
-).required().min(1).max(2);
+).required().min(1).max(2);//changed

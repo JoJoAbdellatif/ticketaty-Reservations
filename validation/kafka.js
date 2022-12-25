@@ -1,7 +1,7 @@
 const Joi = require('@hapi/joi');
 const messages = require('../constants/messages');
 
-// pending/reserved message body
+// pending/reserved message body //removed this
 const messageBody = Joi.object().keys({
   matchNumber: Joi.number().required(),
   tickets: Joi.array().items(
@@ -18,11 +18,11 @@ const kafkaMessageValidation = {
   * Validate schema for pending/reserved ticket
   * @return null if validation passes otherwise a validation error
   */
-  kafkaMessage(reservation) {
+  kafkaMessage(reservation) { //changed
     var schema = Joi.object().keys({
       meta: Joi.object().keys({
         action: Joi.string().valid(messages.TICKET_RESERVED, messages.TICKET_PENDING,messages.TICKET_CANCELLED).required(),
-      }).unknown(false),
+      }).unknown(false), //body changed
       body: messageBody,
     }).required();
     return schema.validate(reservation).error;
