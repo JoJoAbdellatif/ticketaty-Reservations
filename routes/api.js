@@ -19,6 +19,7 @@ module.exports = (app) => {
       if (validationError) {
         return res.status(403).send(validationError.message);
       }
+      console.log("before pending");
       // Send message indicating ticket is pending checkout
       // so shop consumers can process message and call
       // sp-shop-api to decrement available ticket count
@@ -29,7 +30,8 @@ module.exports = (app) => {
           tickets: req.body.tickets,
         }
       });
-  
+      
+      console.log("after pending");
       // TODO: Perform Stripe Payment Flow
       // TODO: Undo (cancel) pending ticket if payment fails
       // TODO: Update master list to reflect reserved ticket sale
@@ -37,7 +39,8 @@ module.exports = (app) => {
       // Persist ticket sale in database with a generated reference id so user can lookup ticket
       const ticketReservation = { id: v4(), ...req.body };
       // const reservation = await db('reservations').insert(ticketReservation).returning('*');
-  
+      
+      console.log("before reservation");
       // Send message indicating ticket sale is final
       await sendKafkaMessage(messagesType.TICKET_RESERVED, {
         meta: { action: messagesType.TICKET_RESERVED},
@@ -46,7 +49,7 @@ module.exports = (app) => {
           tickets: req.body.tickets,
         }
       });
-  
+      console.log("after reservation");
       // Return success response to client
       return res.json({
         message: 'Ticket Purchase Successful',
