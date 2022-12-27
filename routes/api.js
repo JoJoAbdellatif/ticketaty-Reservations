@@ -2,6 +2,7 @@ const { v4 } = require('uuid'); //changed all
 const db = require('../connectors/postgres');
 const { sendKafkaMessage } = require('../connectors/kafka');
 const { validateTicketReservationDto } = require('../validation/reservation');
+const {corsHeaders} = require('../middlewares/cors');
 const messagesType = require('../constants/messages');
 
 module.exports = (app) => {
@@ -11,7 +12,7 @@ module.exports = (app) => {
   });
 
   // HTTP endpoint to create new user
-  app.post('/api/v1/reservation', async (req, res) => {
+  app.post('/api/v1/reservation', corsHeaders , async (req, res) => {
     try {
       // validate payload before proceeding with reservations
       const validationError = validateTicketReservationDto(req.body);
