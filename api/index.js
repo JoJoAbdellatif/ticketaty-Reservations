@@ -83,7 +83,7 @@ app.post('/api/reservation', async (req, res) => {
       quantity: req.body.tickets.quantity,
       price: req.body.tickets.price,
     };
-    await db('reservations').insert(ticketReservation);
+    // await db('reservations').insert(ticketReservation);
 
     // Return success response to client
     return res.json({
