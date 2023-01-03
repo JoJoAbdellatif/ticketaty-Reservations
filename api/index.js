@@ -3,12 +3,14 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const axios = require('axios')
 const { v4 } = require('uuid');
 const db = require('../connectors/postgres');
 const { sendKafkaMessage } = require('../connectors/kafka');
 const { validateTicketReservationDto } = require('../validation/reservation');
 const messagesType = require('../constants/messages');
 const { startKafkaProducer } = require('../connectors/kafka');
+const addTicketURL = 'https://ticketaty-shop.vercel.app/ticket'
 
 // Config setup to parse JSON payloads from HTTP POST request body
 app.use(express.json());
@@ -84,6 +86,7 @@ app.post('/api/reservation', async (req, res) => {
       price: req.body.tickets.price,
     };
     // await db('reservations').insert(ticketReservation);
+    await axios.post(addTicketURL, ticketReservation);
 
     // Return success response to client
     return res.json({
