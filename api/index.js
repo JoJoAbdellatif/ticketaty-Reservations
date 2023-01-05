@@ -9,6 +9,7 @@ const { sendKafkaMessage } = require('../connectors/kafka');
 const { validateTicketReservationDto } = require('../validation/reservation');
 const messagesType = require('../constants/messages');
 const { startKafkaProducer } = require('../connectors/kafka');
+const {corsHeaders} = require('../middlewares/cors')
 
 // Config setup to parse JSON payloads from HTTP POST request body
 app.use(express.json());
@@ -16,12 +17,12 @@ app.use(express.urlencoded({ extended: false }));
 
 // Register the api routes
 // HTTP endpoint to test health performance of service
-app.get('/api/health', async (req, res) => {
+app.get('/api/health', corsHeaders , async (req, res) => {
   return res.send('Service Health');
 });
 
 // HTTP endpoint to create new user
-app.post('/api/reservation', async (req, res) => {
+app.post('/api/reservation', corsHeaders , async (req, res) => {
   try {
     // validate payload before proceeding with reservations
     const validationError = validateTicketReservationDto(req.body);
@@ -101,7 +102,7 @@ app.use((req, res, next) => {
 });
 
 // Create HTTP Server and Listen for Requests
-app.listen(4000, async (req, res) => {
+app.listen(5000, async (req, res) => {
   // Start Kafka Producer
   await startKafkaProducer();
 });
