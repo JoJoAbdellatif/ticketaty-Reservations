@@ -24,7 +24,7 @@ app.get('/api/health', corsHeaders , async (req, res) => {
 });
 
 // HTTP endpoint to create new user
-app.post('/api/reservation', async (req, res) => {
+app.post('/api/reservation',corsHeaders, async (req, res) => {
   try {
     console.log(req.body)
     // validate payload before proceeding with reservations
