@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 // Register the api routes
 // HTTP endpoint to test health performance of service
 app.get('/api/health', corsHeaders , async (req, res) => {
-  return res.send('Service Health');
+  return res.send('Service Health'); 
 });
 
 // HTTP endpoint to create new user
