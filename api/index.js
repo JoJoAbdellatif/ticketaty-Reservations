@@ -3,6 +3,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const axios = require('axios')
 const { v4 } = require('uuid');
 const db = require('../connectors/postgres');
 const { sendKafkaMessage } = require('../connectors/kafka');
@@ -24,6 +25,7 @@ app.get('/api/health', corsHeaders , async (req, res) => {
 // HTTP endpoint to create new user
 app.post('/api/reservation', corsHeaders , async (req, res) => {
   try {
+    console.log(req.body)
     // validate payload before proceeding with reservations
     const validationError = validateTicketReservationDto(req.body);
     if (validationError) {
@@ -85,6 +87,7 @@ app.post('/api/reservation', corsHeaders , async (req, res) => {
       price: req.body.tickets.price,
     };
     // await db('reservations').insert(ticketReservation);
+    await axios.post(addTicketURL, ticketReservation);
 
     // Return success response to client
     return res.json({
