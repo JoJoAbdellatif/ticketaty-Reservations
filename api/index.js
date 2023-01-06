@@ -100,13 +100,19 @@ app.post('/api/reservation',corsHeaders, async (req, res) => {
   }
 });
 
+app.options('/api/reservation',corsHeaders, async (req, res) => {
+  res.status(200).json({message: 'ok'});
+})
+
+
+
 // If request doesn't match any of the above routes then return 404
 app.use((req, res, next) => {
   return res.status(404).send();
 });
 
 // Create HTTP Server and Listen for Requests
-app.listen(4000, async (req, res) => {
+app.listen(5000, async (req, res) => {
   // Start Kafka Producer
   await startKafkaProducer();
 });
